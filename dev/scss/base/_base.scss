@@ -14,5 +14,13 @@ ul{
     }
 }
 
+main {
+    display: grid;
+    grid-template-areas:
+            "header"
+            "creative"
+            "journal"
+            "footer"
 
+}
 
