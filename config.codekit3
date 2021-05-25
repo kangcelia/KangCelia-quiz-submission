@@ -47,6 +47,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/hero\/start-button.png" : {
+      "ft" : 32768,
+      "iS" : 2067,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/hero\/start-button.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/journal\/business-cards.jpg" : {
       "ft" : 16384,
       "iS" : 89291,
@@ -341,6 +354,41 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/dev\/sections\/_creative.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/sections\/_creative.html",
+      "oF" : 0
+    },
+    "\/dev\/sections\/_journal.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/sections\/_journal.html",
+      "oF" : 0
+    },
+    "\/README.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/README.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
     }
   },
   "hooks" : [
@@ -351,7 +399,7 @@
   },
   "projectAttributes" : {
     "creationDate" : 643587021.00821102,
-    "displayValue" : "YOUR_NAME-quiz-submission",
+    "displayValue" : "KangCelia-quiz-submission",
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-verd",
     "iconImageWasSetByUser" : 0
