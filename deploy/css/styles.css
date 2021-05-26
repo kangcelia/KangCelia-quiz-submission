@@ -406,7 +406,7 @@ main {
 @media (min-width: 768px) {
   .journal h1 {
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
     padding-top: 30px;
   }
   .journal ul {
@@ -481,9 +481,65 @@ textarea {
 /* =============
     Navigation
 ============= */
-/* =============
-    Header
-============= */
-/* =============
-    Footer
-============= */
+.hero-img {
+  background: url("../../../deploy/img/hero/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  width: 100;
+}
+
+.header ul a {
+  text-decoration: none;
+}
+.header ul .hero-text h1 {
+  color: #1a4b58;
+  padding: 20px;
+  min-height: 110px;
+  font-weight: 400;
+}
+.header ul .herotext h2 {
+  color: #338595;
+}
+
+.footer {
+  background: #000;
+}
+.footer h3 {
+  color: #eeeeee;
+}
+
+.creat {
+  background: #eeeeee;
+  margin: 20px 0;
+}
+.creat h1 {
+  color: #000;
+  font-weight: 400;
+}
+.creat p {
+  color: #000;
+}
+
+.journal h1 {
+  font-weight: 400;
+}
+.journal li {
+  background: #fff;
+}
+.journal li p {
+  font-size: 1rem;
+  line-height: 1.4;
+}
+.journal #journal-1 .journal-image {
+  background: url("/deploy/img/journal/hanging-sign.jpg") no-repeat;
+  background-size: cover;
+}
+.journal #journal-2 .journal-image {
+  background: url("../../../deploy/img/journal/letterpress-cards.jpg") no-repeat;
+  background-size: cover;
+}
+.journal #journal-3 .journal-image {
+  background: url("/deploy/img/journal/business-cards.jpg") no-repeat;
+  background-size: cover;
+}

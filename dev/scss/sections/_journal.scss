@@ -1,0 +1,35 @@
+.journal {
+    h1 {
+        font-weight: 400;
+    }
+
+    li {
+        background: $white;
+
+        p {
+            font-size: rem-calc(16);
+            line-height: 1.4;
+        }
+    }
+
+    #journal-1 {
+        .journal-image {
+            background: url("/deploy/img/journal/hanging-sign.jpg") no-repeat;
+            background-size: cover;
+        }
+    }
+    
+    #journal-2 {
+        .journal-image {
+            background: url("../../../deploy/img/journal/letterpress-cards.jpg") no-repeat;
+            background-size: cover;
+        }
+    }
+    
+    #journal-3 {
+        .journal-image {
+            background: url("/deploy/img/journal/business-cards.jpg") no-repeat;
+            background-size: cover;
+        }
+    }
+}

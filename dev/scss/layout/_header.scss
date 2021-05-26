@@ -1,3 +1,25 @@
-/* =============
-    Header
-============= */
+.hero-img {
+    background: url("../../../deploy/img/hero/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 100;
+}
+
+.header {
+    ul {
+        a {
+            text-decoration: none;
+        }
+         .hero-text h1 {
+             color: $titleText;
+             padding: 20px;
+             min-height: 110px;
+             font-weight: 400;
+         }
+
+         .herotext h2 {
+             color: $subtitleText;
+         }
+    }
+}
