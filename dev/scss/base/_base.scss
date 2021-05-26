@@ -20,7 +20,88 @@ main {
             "header"
             "creative"
             "journal"
-            "footer"
+            "footer";
+}
+
+.header {
+    grid-area: header;
+}
+
+.creative {
+    grid-area: creative;
+
+    ul {
+        display: grid;
+    }
+
+    .creat {
+        display: grid;
+        grid-template-columns: 70% auto;
+
+    }
+
+    @include md {
+        .creat {
+            grid-template-columns: 70% auto;
+        }
+        ul {
+            grid-template-columns: 100% auto;
+            grid-gap: 20px;
+        }
+    }
+}
+
+.journal {
+    grid-area: journal;
+
+    ul {
+        display: grid;
+    }
+
+    @include md {
+        h1 {
+            text-align: center;
+            padding-bottom: 30px;
+            padding-top: 30px;
+        }
+        ul {
+            grid-template-columns: 350px 350px;
+            grid-gap: 70px; 
+            justify-content: center;
+        }
+    }
+}
+
+.footer {
+    grid-area: footer;
+
+    
+
+    @include md {
+        display: grid;
+
+        ul {
+            grid-template-columns: 1000px;
+            grid-gap: 30px;
+			justify-content: center;
+        }
+        
+        h3 {
+            text-align: center;
+            padding-bottom: 30px;
+        }
+
+        .socials {
+            justify-content: center;
+            .social-icon {
+                width: 40px;
+                float: left;
+            }
+        }
+
+        
+        
+    }
 
 }
 

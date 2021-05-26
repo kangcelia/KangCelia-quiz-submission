@@ -370,6 +370,74 @@ main {
   grid-template-areas: "header" "creative" "journal" "footer";
 }
 
+.header {
+  grid-area: header;
+}
+
+.creative {
+  grid-area: creative;
+}
+.creative ul {
+  display: grid;
+}
+.creative .creat {
+  display: grid;
+  grid-template-columns: 70% auto;
+}
+@media (min-width: 768px) {
+  .creative .creat {
+    grid-template-columns: 70% auto;
+  }
+  .creative ul {
+    grid-template-columns: 100% auto;
+    grid-gap: 20px;
+  }
+}
+
+.journal {
+  grid-area: journal;
+}
+.journal ul {
+  display: grid;
+}
+@media (min-width: 768px) {
+  .journal h1 {
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+  .journal ul {
+    grid-template-columns: 350px 350px;
+    grid-gap: 70px;
+    justify-content: center;
+  }
+}
+
+.footer {
+  grid-area: footer;
+}
+@media (min-width: 768px) {
+  .footer {
+    display: grid;
+  }
+  .footer ul {
+    grid-template-columns: 1000px;
+    grid-gap: 30px;
+    justify-content: center;
+  }
+  .footer h3 {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  .footer .socials {
+    justify-content: center;
+  }
+  .footer .socials .social-icon {
+    width: 40px;
+    float: left;
+  }
+}
+
 /* =============
     Typography
 ============= */
