@@ -25,6 +25,11 @@ main {
 
 .header {
     grid-area: header;
+
+    img {
+        width: 100%;
+    }
+
 }
 
 .creative {
@@ -92,15 +97,12 @@ main {
         }
 
         .socials {
-            justify-content: center;
+            padding-top: 30px;
             .social-icon {
                 width: 40px;
                 float: left;
             }
-        }
-
-        
-        
+        }  
     }
 
 }

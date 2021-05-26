@@ -373,6 +373,9 @@ main {
 .header {
   grid-area: header;
 }
+.header img {
+  width: 100%;
+}
 
 .creative {
   grid-area: creative;
@@ -430,7 +433,7 @@ main {
     padding-bottom: 30px;
   }
   .footer .socials {
-    justify-content: center;
+    padding-top: 30px;
   }
   .footer .socials .social-icon {
     width: 40px;
